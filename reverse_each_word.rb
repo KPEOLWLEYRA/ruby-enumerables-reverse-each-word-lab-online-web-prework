@@ -1,4 +1,4 @@
-def reverse_each_word(string)
+def string_to_array(string)
 array =[]
 n = 0 
 i = 0 
@@ -13,11 +13,13 @@ while i < string.length do
 end
 string2 = string[n..string.length]
 array.push(string2)
-
-array2 = array.each{|j| j.reverse}
-string3 = array2.join
-string3   
+array  
 end 
+
+def reverse_each_word(string)
+  array = string_to_array(string)
+  puts array 
+end
 
 reverse_each_word("Hello there, and how are you?")
   
