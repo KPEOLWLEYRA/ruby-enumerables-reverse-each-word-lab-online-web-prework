@@ -9,6 +9,7 @@ while i < string.length do
     puts string2
     array.push(string2)
     n = i 
+    puts array 
   end 
   i += 1 
 end
