@@ -13,9 +13,9 @@ while i < string.length do
 end
 string2 = string[n..string.length]
 array.push(string2)
-puts array
-array.each{|j| j.reverse}
-string3 = array.join
+
+array2 = array.each{|j| j.reverse}
+string3 = array2.join
 string3   
 end 
 
