@@ -6,17 +6,16 @@ while i < string.length do
   string2 = ''
   if string[i] == " "
     string2 = string[n...i]
-    puts string2
     array.push(string2)
     n = i 
-    puts array 
   end 
   i += 1 
 end
 string2 = string[n..string.length]
 array.push(string2)
 puts array 
-array.each{|j| j.reverse}
+array.each{|j| array[j].reverse}
+puts array 
 string3 = array.join
 string3   
 end 
