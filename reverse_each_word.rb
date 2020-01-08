@@ -23,22 +23,22 @@
 # reverse_array.join("")
 # end
 
-def reverse_each_word(string)
-  array = string.split
-  new_array = array.collect {|w| w.reverse}
-  puts new_array
-  new_array.join(" ")
-end
+# def reverse_each_word(string)
+#   array = string.split
+#   new_array = array.collect {|w| w.reverse}
+#   puts new_array
+#   new_array.join(" ")
+# end
 
-# def reverse_each_word(argument) 
-#   argument_split = argument.split(' ')
+def reverse_each_word(string) 
+  string_split = string.split(' ')
 
-#   new = []
-#   argument_split.each do |el|
-#     new << el.reverse()
-#   end   
-#   new.join(' ') 
-# end  
+  new_array = []
+  string_split.each do |w|
+    new_array << w.reverse()
+  end   
+  new_array.join(' ') 
+end  
 
 reverse_each_word("Hello there, and how are you?")
   
