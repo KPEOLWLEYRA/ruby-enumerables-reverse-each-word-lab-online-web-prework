@@ -18,7 +18,8 @@ end
 
 def reverse_each_word(string)
   array = string_to_array(string)
-  array.each {|j| 
+  array.each {|j| j.reverse}
+  j
   puts array
 end
   string5 = array.join
