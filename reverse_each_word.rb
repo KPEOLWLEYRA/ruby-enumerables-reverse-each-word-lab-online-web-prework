@@ -5,13 +5,13 @@ i = 0
 while i < string.length do 
   string2 = ''
   if string[i] == " "
-    string2 = string[n...i]
+    string2 = string[n..i]
     array.push(string2)
     n = i 
   end 
   i += 1 
 end
-string2 = string[n..string.length]
+string2 = string[(n+1)..string.length]
 array.push(string2)
 array  
 end 
