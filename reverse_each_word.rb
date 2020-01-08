@@ -25,9 +25,9 @@
 
 def reverse_each_word(string)
   array = string.split
-  array.each {|w| w.reverse}
-  puts array
-  array.join(" ")
+  new_array = array.each {|w| w.reverse}
+  puts new_array
+  new_array.join(" ")
 end
 
 reverse_each_word("Hello there, and how are you?")
