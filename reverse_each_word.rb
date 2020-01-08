@@ -23,12 +23,12 @@
 # reverse_array.join("")
 # end
 
-# def reverse_each_word(string)
-#   array = string.split
-#   new_array = array.collect {|w| w.reverse}
-#   puts new_array
-#   new_array.join(" ")
-# end
+def reverse_each_word(string)
+  array = string.split
+  new_array = array.collect {|w| w.reverse}
+  puts new_array
+  new_array.join(" ")
+end
 
 def reverse_each_word(string) 
   string_split = string.split(' ')
