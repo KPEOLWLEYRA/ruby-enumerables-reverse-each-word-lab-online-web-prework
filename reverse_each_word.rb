@@ -13,7 +13,7 @@ while i < string.length do
 end
 string2 = string[n..string.length]
 array.push(string2)
-array.each{|j| array[j].reverse}
+array.each{|j| j.reverse}
 array.join
   
 end 
