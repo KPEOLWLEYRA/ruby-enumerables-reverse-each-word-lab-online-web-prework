@@ -22,8 +22,7 @@ def reverse_each_word(string)
   j
   puts array
 end
-  string5 = array.join
-  string5
+array
 end
 
 reverse_each_word("Hello there, and how are you?")
