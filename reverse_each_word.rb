@@ -19,8 +19,9 @@ end
 def reverse_each_word(string)
   array = string_to_array(string)
   array.each do {|j| j.reverse}
-  puts array.join
-  array
+  string5 = array.join
+end
+  string5
 end
 
 reverse_each_word("Hello there, and how are you?")
