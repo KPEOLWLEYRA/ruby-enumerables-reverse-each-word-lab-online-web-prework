@@ -30,15 +30,15 @@ def reverse_each_word(string)
   new_array.join(" ")
 end
 
-def reverse_each_word(string) 
-  string_split = string.split(' ')
+# def reverse_each_word(string) 
+#   string_split = string.split(' ')
 
-  new_array = []
-  string_split.each do |w|
-    new_array << w.reverse()
-  end   
-  new_array.join(' ') 
-end  
+#   new_array = []
+#   string_split.each do |w|
+#     new_array << w.reverse()
+#   end   
+#   new_array.join(' ') 
+# end  
 
 reverse_each_word("Hello there, and how are you?")
   
