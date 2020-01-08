@@ -5,7 +5,7 @@ i = 0
 while i < string.length do 
   string2 = ''
   if string[i] == " "
-    string2 = string[n..i]
+    string2 = string[n...i]
     array.push(string2)
     n = i 
   end 
