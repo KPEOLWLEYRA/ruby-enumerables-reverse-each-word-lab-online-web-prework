@@ -13,9 +13,10 @@ while i < string.length do
 end
 string2 = string[n..string.length]
 array.push(string2)
+puts array 
 array.each{|j| j.reverse}
-array.join
-  
+string3 = array.join
+string3   
 end 
 
 reverse_each_word("Hello there, and how are you?")
