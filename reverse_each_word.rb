@@ -6,6 +6,7 @@ while i < string.length do
   string2 = ''
   if i == " "
     string2 = string[n...i]
+    puts string2
     array.push(string2)
     n = i 
   end 
